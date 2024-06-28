@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vbnbTt5m)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15291815&assignment_repo_type=AssignmentRepo)
 # Dev_Setup
 Setup Development Environment
 
@@ -38,10 +40,38 @@ This assignment aims to familiarize you with the tools and configurations necess
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
 - A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
 - A reflection on the challenges faced during setup and strategies employed to overcome them.
-
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
 
+Create the Installation Media
+1. Head over to [Microsoft's official Windows 11 download page](https://www.microsoft.com/software-download/windows11)
+2. In the "Create Windows 11 Installation Media" group, click "Download Now."
+3. Run the program once it's finished downloading. Click "Accept" in the bottom-right corner of the window.
+4. After a few seconds, you'll be on the Select Language and Edition screen. The only edition you can choose here is Windows 11, so just leave it at that.
+5. Just let Windows select this for you by checking the box next to "Use the Recommended Options for This PC."
+6. Select "Next" to continue.
+7. On the next screen, you'll need to choose which media to use. Select "USB Flash Drive" and then click "Next" to continue. Remember that you must have at least 8GB of available storage space.
+8. Next, select the flash drive you'd like to use. Once selected, click "Next" to continue.
+9. The downloading process will begin. The amount of time it takes varies, but be prepared to wait for a bit. The good news is you can continue to use your PC while you wait.
+10. Click the "Finish" button once downloading is complete, safely remove the USB drive from the computer, and then insert it into the computer that you want to install Windows 11 on.
+
+ Install Windows 11 From the USB Drive
+
+1. Once the USB drive with the installation files is inserted into the destination PC, you'll need to set the boot order so that the computer loads the operating system from a location other than its hard drive. In this case, we want Windows to load the operating system from the USB drive.
+2. When you're booting your computer, press the appropriate key to open the BIOS or UEFI controls. The key that you need to press differs between computers, but it's usually F11 or F12.
+3. After you select the USB drive from the boot menu, your PC will reboot from the USB drive (instead of the hard drive) and ask you to begin the setup of the installation media by pressing any key.
+4. First, you'll need to choose the language to install, the time and currency format, and the keyboard or input method. To change one of the preset options, click the down arrow and select an option from the drop-down menu. However, you'll rarely need to change anything here.
+5. Click "Next" when you're ready to move forward.
+6. Click "Install Now" on the next screen.
+7. Windows will tell you that setup is starting, and then you'll be on the Windows Setup screen. This is the screen where you will activate your version of Windows. If you have your product key, enter it in the text box. If you don't, you can run a limited version of Windows by choosing "I Don't Have a Product Key" at the bottom of the window. If you choose the latter option, you can enter the product key at a later point to unlock everything.
+8. If you entered your product key, click "Next" to continue. We'll select "I Don't Have a Product Key" in this example.
+9. On the next screen, select the version of Windows 11 that you want to install. If you already have a product key, be sure to select the correct version, as product keys only work with their respective version. Once you select your version, click "Next."
+10. We'll select "Windows 11 Pro" in this example.
+11. Accept the license terms on the next screen by checking the box. Click "Next" to proceed.
+12. You can then select to upgrade, which installs the new version of Windows while keeping your files, apps, and settings. We'll select "Custom: Install Windows Only (Advanced)" since we're doing a fresh install.
+13. Finally, select where you want to install Windows. If your hard drive is new, it may say something like "Drive 0 Unallocated Space." If you've partitioned your drive, its name will reflect that.
+14. The Wizard will now begin installing the Windows files. The length of this process varies from computer to computer and could take a bit of time.
+15. Once finished, your computer will reboot. In some cases, you'll get stuck in a boot loop where the system tries to bring you back to the installation process. This happens because the system might be trying to read from the USB drive instead of from the hard drive that you installed the OS on. If this happens, remove the USB drive and restart the computer
 #Evaluation Criteria:**
 - Completeness and accuracy of setup documentation.
 - Effectiveness of version control implementation.
